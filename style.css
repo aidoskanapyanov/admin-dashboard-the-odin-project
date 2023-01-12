@@ -119,7 +119,8 @@ body {
 }
 
 .sm-descr,
-.md-descr {
+.md-descr,
+.trend-name {
     color: rgb(100, 100, 100);
 }
 
@@ -138,4 +139,28 @@ body {
 
 .project-action {
     margin: 0px 10px;
+}
+
+.right.bottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.trend {
+    display: grid;
+    grid-template-columns: 0.1fr 0.9fr;
+    grid-template-rows: repeat(2, 1fr);
+}
+
+.trend-at,
+.trend-name {
+    font-size: 0.8rem;
+}
+
+.trend-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-area: 1 / 1 / 3 / 2;
 }
