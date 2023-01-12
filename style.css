@@ -73,3 +73,9 @@ body {
 .left {
     grid-area: 2 / 1 / 5 / 2;
 }
+
+.title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
