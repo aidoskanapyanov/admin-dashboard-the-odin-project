@@ -86,18 +86,15 @@ body {
 }
 
 .project,
-.right.top {
+.right.top,
+.right.bottom {
     background-color: white;
-}
-
-.project {
     border-radius: 5px;
 }
 
 .right.top {
     height: 100%;
     padding: 20px 20px;
-    border-radius: 5px;
 }
 
 .anmt {
