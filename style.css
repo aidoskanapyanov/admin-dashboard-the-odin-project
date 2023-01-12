@@ -110,6 +110,12 @@ body {
     font-size: 0.6rem;
 }
 
-.sm-descr {
+.md-header,
+.md-descr {
+    font-size: 0.8rem;
+}
+
+.sm-descr,
+.md-descr {
     color: rgb(100, 100, 100);
 }
