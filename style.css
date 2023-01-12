@@ -119,3 +119,18 @@ body {
 .md-descr {
     color: rgb(100, 100, 100);
 }
+
+.project {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.project-actions {
+    display: flex;
+    justify-content: end;
+}
+
+.project-action {
+    margin: 0px 10px;
+}
